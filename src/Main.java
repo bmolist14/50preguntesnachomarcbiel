@@ -35,11 +35,21 @@ public class Main {
             {"¿Qué método convierte un String a minúsculas?", "a. toLowerCase()", "b. lower()", "c. toSmall()", "d. small()"},
             {"¿Qué método compara el contenido de dos Strings?", "a. compare()", "b. ==", "c. equals()", "d. same()"},
             {"¿Qué método compara Strings ignorando mayúsculas?", "a. equals()", "b. equalsIgnoreCase()", "c. compare()", "d. contains()"},
-            {"¿Qué método comprueba si un String contiene un texto?", "a. contains()", "b. find()", "c. search()", "d. length()"}
+            {"¿Qué método comprueba si un String contiene un texto?", "a. contains()", "b. find()", "c. search()", "d. length()"},
+            // Parte 4: preguntas 28-36
+            {"¿Qué método extrae una parte de un String?", "a. charAt()", "b. split()", "c. substring()", "d. equals()"},
+            {"¿Qué método devuelve un carácter de un String?", "a. get()", "b. charAt()", "c. character()", "d. index()"},
+            {"¿Cuál es la primera posición de un array?", "a. 1", "b. 2", "c. -1", "d. 0"},
+            {"¿Cómo se obtiene la longitud de un array?", "a. array.length", "b. array.size()", "c. array.count()", "d. array.long()"},
+            {"¿Cómo se declara un array de enteros?", "a. int array", "b. int[] array", "c. array int", "d. String array"},
+            {"¿Qué palabra se utiliza para crear un objeto?", "a. class", "b. create", "c. new", "d. object"},
+            {"¿Qué tipo indica que un método no devuelve nada?", "a. int", "b. String", "c. boolean", "d. void"},
+            {"¿Qué palabra devuelve un valor desde un método?", "a. return", "b. break", "c. new", "d. public"},
+            {"¿Qué método imprime texto con salto de línea?", "a. print()", "b. println()", "c. write()", "d. show()"}
         };
 
         String[] respuestas = {
-            "d", "a", "b", "c", "a", "c", "b", "d", "a", "c", "b", "a", "c", "b", "c", "a", "b", "c", "d", "a", "b", "c", "b", "a", "c", "b", "a"
+            "d", "a", "b", "c", "a", "c", "b", "d", "a", "c", "b", "a", "c", "b", "c", "a", "b", "c", "d", "a", "b", "c", "b", "a", "c", "b", "a", "c", "b", "d", "a", "b", "c", "d", "a", "b"
         };
 
         for (int i = 0; i < preguntas.length; i++) {
@@ -64,5 +74,6 @@ public class Main {
         System.out.println("Puntuación: " + puntos + "/" + preguntas.length);
         System.out.println("Respuestas incorrectas: " + (preguntas.length - puntos));
         System.out.println("Nota final: " + (puntos * 10.0 / preguntas.length));
+        scanner.close();
     }
 }
