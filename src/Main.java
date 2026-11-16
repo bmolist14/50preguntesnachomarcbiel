@@ -16,6 +16,7 @@ public class Main {
             {"¿Qué tipo almacena un solo carácter?", "a. int", "b. char", "c. String", "d. float"},
             {"¿Qué clase permite leer datos del teclado?", "a. System", "b. Math", "c. String", "d. Scanner"},
             {"¿Qué operador se utiliza para sumar?", "a. +", "b. -", "c. *", "d. /"},
+            // Parte 2: preguntas 10-18
             {"¿Qué operador devuelve el resto de una división?", "a. /", "b. +", "c. %", "d. *"},
             {"¿Qué palabra se utiliza para una condición?", "a. for", "b. if", "c. class", "d. import"},
             {"¿Qué palabra se utiliza si la condición es falsa?", "a. else", "b. while", "c. return", "d. new"},
@@ -24,11 +25,21 @@ public class Main {
             {"¿Qué operador significa AND lógico?", "a. ||", "b. !", "c. &&", "d. =="},
             {"¿Qué operador significa OR lógico?", "a. ||", "b. &&", "c. !", "d. %"},
             {"¿Qué operador significa NOT lógico?", "a. +", "b. !", "c. &&", "d. ||"},
-            {"¿Qué bucle comprueba la condición antes de ejecutarse?", "a. if", "b. switch", "c. while", "d. class"}
+            {"¿Qué bucle comprueba la condición antes de ejecutarse?", "a. if", "b. switch", "c. while", "d. class"},
+            // Parte 3: preguntas 19-27
+            {"¿Qué bucle se ejecuta al menos una vez?", "a. for", "b. while", "c. if", "d. do-while"},
+            {"¿Qué palabra permite salir de un bucle?", "a. break", "b. continue", "c. new", "d. void"},
+            {"¿Qué palabra salta a la siguiente iteración?", "a. break", "b. continue", "c. class", "d. import"},
+            {"¿Qué método obtiene la longitud de un String?", "a. size()", "b. count()", "c. length()", "d. get()"},
+            {"¿Qué método convierte un String a mayúsculas?", "a. upper()", "b. toUpperCase()", "c. uppercase()", "d. upperCase()"},
+            {"¿Qué método convierte un String a minúsculas?", "a. toLowerCase()", "b. lower()", "c. toSmall()", "d. small()"},
+            {"¿Qué método compara el contenido de dos Strings?", "a. compare()", "b. ==", "c. equals()", "d. same()"},
+            {"¿Qué método compara Strings ignorando mayúsculas?", "a. equals()", "b. equalsIgnoreCase()", "c. compare()", "d. contains()"},
+            {"¿Qué método comprueba si un String contiene un texto?", "a. contains()", "b. find()", "c. search()", "d. length()"}
         };
 
         String[] respuestas = {
-            "d", "a", "b", "c", "a", "c", "b", "d", "a", "c", "b", "a", "c", "b", "c", "a", "b", "c"
+            "d", "a", "b", "c", "a", "c", "b", "d", "a", "c", "b", "a", "c", "b", "c", "a", "b", "c", "d", "a", "b", "c", "b", "a", "c", "b", "a"
         };
 
         for (int i = 0; i < preguntas.length; i++) {
@@ -46,6 +57,7 @@ public class Main {
                 System.out.println("Respuesta correcta: " + respuestas[i]);
             } else {
                 System.out.println("Respuesta no válida");
+                scanner.close();
                 return;
             }
         }
