@@ -50,11 +50,16 @@ public class Main {
             {"¿Qué operador aumenta una variable en una unidad?", "a. --", "b. **", "c. ==", "d. ++"},
             {"¿Qué operador disminuye una variable en una unidad?", "a. --", "b. ++", "c. !=", "d. +="},
             {"¿Cuánto es 10 % 3?", "a. 3", "b. 1", "c. 0", "d. 10"},
-            {"¿Cuánto es 5 + 3 * 2?", "a. 16", "b. 13", "c. 11", "d. 10"}
+            {"¿Cuánto es 5 + 3 * 2?", "a. 16", "b. 13", "c. 11", "d. 10"},
+            {"¿Cuánto es 10 / 2?", "a. 2", "b. 8", "c. 20", "d. 5"},
+            {"¿Qué método calcula una raíz cuadrada?", "a. Math.sqrt()", "b. Math.pow()", "c. Math.abs()", "d. Math.random()"},
+            {"¿Qué método genera un número aleatorio?", "a. Math.sqrt()", "b. Math.random()", "c. Math.round()", "d. Math.max()"},
+            {"¿Qué método devuelve el valor máximo de dos números?", "a. Math.min()", "b. Math.abs()", "c. Math.max()", "d. Math.sqrt()"},
+            {"¿Qué método elimina espacios al principio y al final de un String?", "a. remove()", "b. clean()", "c. delete()", "d. trim()"}
         };
 
         String[] respuestas = {
-            "d", "a", "b", "c", "a", "c", "b", "d", "a", "c", "b", "a", "c", "b", "c", "a", "b", "c", "d", "a", "b", "c", "b", "a", "c", "b", "a", "c", "b", "d", "a", "b", "c", "d", "a", "b", "c", "d", "a", "b", "c", "d", "a", "b", "c"
+            "d", "a", "b", "c", "a", "c", "b", "d", "a", "c", "b", "a", "c", "b", "c", "a", "b", "c", "d", "a", "b", "c", "b", "a", "c", "b", "a", "c", "b", "d", "a", "b", "c", "d", "a", "b", "c", "d", "a", "b", "c", "d", "a", "b", "c", "d", "a", "b", "c", "d"
         };
 
         for (int i = 0; i < preguntas.length; i++) {
